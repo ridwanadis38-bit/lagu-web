@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lagu Favoritku</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      color: #ff003c;
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-bottom: 30px;
+      box-shadow: 0 0 25px rgba(255, 0, 60, 0.5);
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    audio {
+      width: 300px;
+      outline: none;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 0, 60, 0.4);
+    }
+
+    .lyrics {
+      max-width: 400px;
+      color: #ccc;
+      font-size: 14px;
+      line-height: 1.6;
+      text-align: left;
+      white-space: pre-wrap;
+      margin-bottom: 40px;
+      background: rgba(20, 20, 20, 0.6);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255, 0, 60, 0.3);
+    }
+
+    a.back-btn {
+      color: #ff003c;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    a.back-btn:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Lagu Favoritku</h1>
+
+  <div class="logo">
+    <img src="https://i.imgur.com/idCk4bk.jpeg" alt="Logo RDVAN">
+  </div>
+
+  <!-- Pastikan file lagu.mp3 ada di folder yang sama -->
+  <audio controls>
+    <source src="lagu.mp3" type="audio/mpeg">
+    Browser kamu tidak mendukung audio.
+  </audio>
+
+  <div class="lyrics">
+Harusnya aku katakan dari dulu
+Sebelum semua jadi begini
+Kini terlanjur kisah sudah tak sama
+Seperti awal bertemu
+Kamu telah banyak berubah
+Tak seperti yang kukenal dahulu hm-hm
+Mana dirimu yang dahulu
+Yang selalu pentingkan aku
+Kini yang terdengar hanya suara amarahmu
+Mana kekasihku yang dulu
+Yang tak pernah bisa melihatku menangis bersedih
+Mana dirimu yang dahulu
+Ho-oh-oh-oh uh-oh-uh-oh oh-oh
+Mana kekasihku yang dulu
+Kurindukan semua masa bahagia seperti dulu
+Saat tulusmu masih untukku hu-uh-oh
+Kamu kini jauh berbeda
+Tak seperti yang kukenal dahulu
+Mana dirimu yang dahulu
+Yang selalu pentingkan aku
+Kini yang terdengar hanya suara amarahmu
+Mana kekasihku yang dulu
+Yang tak pernah bisa melihatku menangis bersedih
+Mana dirimu yang dahulu hu-uh-uh
+Kini hanya suara amarahmu
+Mana kekasihku yang dulu
+Yang pentingkan aku hu-uh hu-uh
+Mana dirimu yang dulu
+Kurindu dirimu yang dulu
+  </div>
+
+  <a href="#" class="back-btn">← Kembali ke Profil</a>
+
+</body>
+</html>
